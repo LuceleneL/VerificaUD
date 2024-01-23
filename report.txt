@@ -1,0 +1,21 @@
+Arquivo: .conllu
+
+sentencas:                   8 (tokens: 77)
+sentencas sem erro:          3
+sentencas sem erro ou aviso: 3
+erros estruturais: 1 - avisos: 0
+erros de tagger:   6 - avisos: 0
+erros de parser:   4 - avisos: 0
+
+Erros e avisos encontrados:
+CP981-1        	token 1  	ERRO P37: Não deve haver Deprel projetivas (cruzamento de arcos) para nenhum token.
+CP981-1        	token 12 	ERRO T22: Todo token PROPN não deve ter features.
+CP981-1        	token 13 	ERRO T22: Todo token PROPN não deve ter features.
+CP981-1        	token 3  	ERRO P37: Não deve haver Deprel projetivas (cruzamento de arcos) para nenhum token.
+CP981-1        	token 4  	ERRO P37: Não deve haver Deprel projetivas (cruzamento de arcos) para nenhum token.
+CP981-1        	token 8  	ERRO T12: Nenhum token ADV não abreviado pode ter features.
+FOLHA_DOC000097_SENT056	token 6  	ERRO T12: Nenhum token ADV não abreviado pode ter features.
+FOLHA_DOC000132_SENT031	token 7  	ERRO P08: Nenhum DET é head de relação - Exceções: pode ser head da relação fixed (e se for de fixed, pode ser de punct, cc e conj também), pode ser head de conj se o dependente for DET, pode ser head de cc se o token DET for dependente de conj.
+FOLHA_DOC009367_SENT031	token 1  	ERRO T07: Todo token SCONJ abreviado só pode ter feature 'Abbr=Yes'.
+FOLHA_DOC009367_SENT031	token 3  	ERRO T21: Todo token PRON deve ter features 'PronType=Dem/Ind/Rel/Int/Prs' e de acordo com o tipo pode ter apenas 'Case=Acc/Dat/Nom', 'Gender=Fem/Masc', 'Number=Sing/Plur', 'Person=1/2/3' e 'Poss=Yes'.
+FOLHA_DOC031010_SENT007	token 3-4	ERRO S09: Numeração errada de tokens de contração (números errados).
