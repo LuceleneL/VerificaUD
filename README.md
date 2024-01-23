@@ -6,7 +6,7 @@
  Further information about this program can be obtained at: https://sol.sbc.org.br/index.php/stil/article/view/25485
 
  ## Reference
- To reference this program please refere to this publication:
+ To reference this program please refer to this publication:
  - LOPES, L.; DURAN, M. S.; PARDO, T. A. S. Verifica UD - A verifier for Universal Dependencies annotation in Portuguese. In: Proc. of the UDFest-BR 2023, 2023. DOI: https://doi.org/10.5753/stil.2023.25485
 
  ## Bibtex:
