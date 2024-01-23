@@ -1,9 +1,9 @@
 # VerificaUD
  This repository has verificaUD.py program, a verifier for corpora in Portuguese encoded using CoNLL-U files (`.conllu`), the Universal Dependencies (UD) usual format.
 
- This program has also an online version available at: [http://verificaud.icmc.usp.br]http://verificaud.icmc.usp.br
+ This program has also an online version available at: http://verificaud.icmc.usp.br
 
- Further information about this program can be obtained at: [https://sol.sbc.org.br/index.php/stil/article/view/25485]https://sol.sbc.org.br/index.php/stil/article/view/25485
+ Further information about this program can be obtained at: https://sol.sbc.org.br/index.php/stil/article/view/25485
 
  To reference this program please refere to this publication:
  - LOPES, L.; DURAN, M. S.; PARDO, T. A. S. Verifica UD - A verifier for Universal Dependencies annotation in Portuguese. In: Proc. of the UDFest-BR 2023, 2023. DOI: https://doi.org/10.5753/stil.2023.25485
