@@ -5,10 +5,11 @@
 
  Further information about this program can be obtained at: https://sol.sbc.org.br/index.php/stil/article/view/25485
 
+ ## Reference
  To reference this program please refere to this publication:
  - LOPES, L.; DURAN, M. S.; PARDO, T. A. S. Verifica UD - A verifier for Universal Dependencies annotation in Portuguese. In: Proc. of the UDFest-BR 2023, 2023. DOI: https://doi.org/10.5753/stil.2023.25485
 
- Bibtex:
+ ## Bibtex:
  @inproceedings{Lopes2023VerificaUD,
    author = 'LOPES, L. and DURAN, M. S. and PARDO, T. A. S.', 
    title = 'Verifica UD - A verifier for Universal Dependencies annotation in Portuguese',
@@ -16,6 +17,7 @@
    series = 'UDFest-BR',
    year = 2023,
    pages = '1-8',
+   doi = 'https://doi.org/10.5753/stil.2023.25485',
    url = 'https://sol.sbc.org.br/index.php/stil/article/view/25485',
 }
 
