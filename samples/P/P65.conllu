@@ -1,0 +1,77 @@
+# sent_id = RODAV_DOC000004_SEN0257
+# text = Acho a escola uma das instituições, se não a instituição mais importante que pode existir para preparar o cidadão.
+1	Acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	escola	escola	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4	uma	um	DET	_	Gender=Fem|NumType=Card	1	obj	_	_
+5-6	das	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	instituições	instituição	NOUN	_	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	se	se	SCONJ	_	_	12	mark	_	_
+10	não	não	ADV	_	_	12	advmod	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	instituição	instituição	NOUN	_	Gender=Fem|Number=Sing	1	advcl	_	_
+13	mais	mais	ADV	_	_	14	advmod	_	_
+14	importante	importante	ADJ	_	Number=Sing	12	amod	_	_
+15	que	que	PRON	_	PronType=Rel	16	nsubj	_	_
+16	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+17	existir	existir	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	para	para	ADP	_	_	19	mark	_	_
+19	preparar	preparar	VERB	_	VerbForm=Inf	17	advcl	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	cidadão	cidadão	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0525
+# text = Isso vai nos possibilitar fazer com que a Turma da Mônica viva algumas aventuras, tipo Marco Polo.
+1	Isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
+4	possibilitar	possibilitar	VERB	_	VerbForm=Inf	0	root	_	_
+5	fazer	fazer	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	com	com	ADP	_	_	13	mark	_	_
+7	que	que	SCONJ	_	_	6	fixed	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Turma	Turma	PROPN	_	_	13	nsubj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Mônica	Mônica	PROPN	_	_	9	flat:name	_	_
+13	viva	vivar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+14	algumas	algum	DET	_	Gender=Fem|Number=Plur|PronType=Ind	15	det	_	_
+15	aventuras	aventura	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	18	punct	_	_
+17	tipo	tipo	ADP	_	Gender=Masc|Number=Sing	15	case	_	_
+18	Marco	Marco	PROPN	_	_	17	nmod	_	_
+19	Polo	Polo	PROPN	_	_	18	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0659
+# text = Eu quero é que principalmente o pessoal que trata conosco nos trata de igual para igual, de empresa para empresa.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	que	que	SCONJ	_	_	13	mark	_	_
+5	principalmente	principalmente	ADV	_	_	7	advmod	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pessoal	pessoal	NOUN	_	Number=Sing	13	nsubj	_	_
+8	que	que	PRON	_	PronType=Rel	9	nsubj	_	_
+9	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10-11	conosco	_	_	_	_	_	_	_	_
+10	com	com	ADP	_	_	11	case	_	_
+11	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	obl	_	_
+12	nos	nos	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	obj	_	_
+13	trata	tratar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	igual	igual	ADJ	_	Number=Sing	13	obl	_	_
+16	para	para	ADP	_	_	17	case	_	_
+17	igual	igual	ADJ	_	Number=Sing	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	de	de	ADP	_	_	20	case	_	_
+20	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	15	conj	_	_
+21	para	para	ADP	_	_	22	case	_	_
+22	empresa	empresa	NOUN	_	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	2	punct	_	_
+

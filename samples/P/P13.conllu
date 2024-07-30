@@ -1,0 +1,32 @@
+# sent_id = RODAV_DOC000004_SEN0292
+# text = E eu vou lá e fico pedindo para eles me subsidiarem, me ajudarem a entender o que nós vamos fazer com a escola do Brasil.
+1	E	e	CCONJ	_	_	4	cc	_	_
+2	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	vou	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	lá	lá	ADV	_	_	0	root	_	_
+5	e	e	CCONJ	_	_	6	cc	_	_
+6	fico	ficar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	pedindo	pedir	VERB	_	VerbForm=Ger	6	xcomp	_	_
+8	para	para	ADP	_	_	11	mark	_	_
+9	eles	ele	PRON	_	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+10	me	me	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	subsidiarem	subsidiar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	obj	_	_
+14	ajudarem	ajudar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	11	conj	_	_
+15	a	a	ADP	_	_	16	mark	_	_
+16	entender	entender	VERB	_	VerbForm=Inf	14	xcomp	_	_
+17	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	obj	_	_
+18	que	que	PRON	_	PronType=Rel	21	obj	_	_
+19	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+20	vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	fazer	fazer	VERB	_	VerbForm=Inf	17	acl:relcl	_	_
+22	com	com	ADP	_	_	24	case	_	_
+23	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	escola	escola	NOUN	_	Gender=Fem|Number=Sing	21	obl	_	_
+25-26	do	_	_	_	_	_	_	_	_
+25	de	de	ADP	_	_	27	case	_	_
+26	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	Brasil	Brasil	PROPN	_	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	4	punct	_	_
+

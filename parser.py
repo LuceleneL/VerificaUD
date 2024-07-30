@@ -653,14 +653,23 @@ def check37(b,dump):
     acc = 0
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]) and (b[4][i][7] != "root") and (b[4][i][6] != "0"):
-            tkID    = eval(b[4][i][0])
-            tkHead  = eval(b[4][i][6])
+            if (b[4][i][0].isdigit()):
+                tkID = eval(b[4][i][0])
+            else:
+                tkID = 0
+            if (b[4][i][6].isdigit()):
+                tkHead  = eval(b[4][i][6])
+            else:
+                tkhead = 0
             if (tkID < tkHead):
                 for j in range(i+1,len(b[4])):
                     if (b[4][j][0] == b[4][i][6]):
                         break
                     elif ("-" not in b[4][j][0]):
-                        middle = eval(b[4][j][6])
+                        if (b[4][j][6].isdigit()):
+                            middle = eval(b[4][j][6])
+                        else:
+                            middle = 0
                         if (middle < tkID) or (middle > tkHead):
                             acc += 1
                             print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule37), sep="\t", file=dump)
@@ -670,7 +679,10 @@ def check37(b,dump):
                     if (b[4][j][0] == b[4][i][6]):
                         break
                     elif ("-" not in b[4][j][0]):
-                        middle = eval(b[4][j][6])
+                        if (b[4][j][6].isdigit()):
+                            middle = eval(b[4][j][6])
+                        else:
+                            middle = 0
                         if (middle > tkID) or (middle < tkHead):
                             acc += 1
                             print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule37), sep="\t", file=dump)
@@ -702,7 +714,8 @@ def check39(b,dump):
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]):
             if (b[4][i][7] == "nsubj"):
-                deps[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    deps[eval(b[4][i][6])-1] += 1
     for i in range(len(deps)):
         if (deps[i] > 1):
             acc += 1
@@ -716,7 +729,8 @@ def check40(b,dump):
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]):
             if (b[4][i][7] == "nsubj:pass"):
-                deps[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    deps[eval(b[4][i][6])-1] += 1
     for i in range(len(deps)):
         if (deps[i] > 1):
             acc += 1
@@ -730,7 +744,8 @@ def check41(b,dump):
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]):
             if (b[4][i][7] == "nsubj:outer"):
-                deps[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    deps[eval(b[4][i][6])-1] += 1
     for i in range(len(deps)):
         if (deps[i] > 1):
             acc += 1
@@ -744,7 +759,8 @@ def check42(b,dump):
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]):
             if (b[4][i][7] == "csubj"):
-                deps[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    deps[eval(b[4][i][6])-1] += 1
     for i in range(len(deps)):
         if (deps[i] > 1):
             acc += 1
@@ -758,7 +774,8 @@ def check43(b,dump):
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]):
             if (b[4][i][7] == "csubj"):
-                deps[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    deps[eval(b[4][i][6])-1] += 1
     for i in range(len(deps)):
         if (deps[i] > 1):
             acc += 1
@@ -772,7 +789,8 @@ def check44(b,dump):
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]):
             if (b[4][i][7] == "csubj"):
-                deps[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    deps[eval(b[4][i][6])-1] += 1
     for i in range(len(deps)):
         if (deps[i] > 1):
             acc += 1
@@ -786,7 +804,8 @@ def check45(b,dump):
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]):
             if (b[4][i][7] == "csubj"):
-                deps[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    deps[eval(b[4][i][6])-1] += 1
     for i in range(len(deps)):
         if (deps[i] > 1):
             acc += 1
@@ -800,7 +819,8 @@ def check46(b,dump):
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]):
             if (b[4][i][7] == "case"):
-                deps[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    deps[eval(b[4][i][6])-1] += 1
     for i in range(len(deps)):
         if (deps[i] > 1):
             acc += 1
@@ -811,45 +831,50 @@ def check47(b,dump):
     '''Todo token dependente de appos tem seu head à esquerda.'''
     acc = 0
     for i in range(len(b[4])):
-        if (b[4][i][7] == "appos") and (eval(b[4][i][6]) > eval(b[4][i][0])):
-            acc += 1
-            print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule47), sep="\t", file=dump)
+        if (b[4][i][6].isdigit()) and (b[4][i][0].isdigit()):
+            if (b[4][i][7] == "appos") and (eval(b[4][i][6]) > eval(b[4][i][0])):
+                acc += 1
+                print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule47), sep="\t", file=dump)
     return acc
 
 def check48(b,dump):
     '''Todo token dependente de mark tem seu head à direita.'''
     acc = 0
     for i in range(len(b[4])):
-        if (b[4][i][7] == "mark") and (eval(b[4][i][6]) < eval(b[4][i][0])):
-            acc += 1
-            print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule48), sep="\t", file=dump)
+        if (b[4][i][6].isdigit()) and (b[4][i][0].isdigit()):
+            if (b[4][i][7] == "mark") and (eval(b[4][i][6]) < eval(b[4][i][0])):
+                acc += 1
+                print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule48), sep="\t", file=dump)
     return acc
 
 def check49(b,dump):
     '''Todo token dependente de case tem seu head à direita.'''
     acc = 0
     for i in range(len(b[4])):
-        if (b[4][i][7] == "case") and (eval(b[4][i][6]) < eval(b[4][i][0])):
-            acc += 1
-            print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule49), sep="\t", file=dump)
+        if (b[4][i][6].isdigit()) and (b[4][i][0].isdigit()):
+            if (b[4][i][7] == "case") and (eval(b[4][i][6]) < eval(b[4][i][0])):
+                acc += 1
+                print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule49), sep="\t", file=dump)
     return acc
 
 def check50(b,dump):
     '''Todo token dependente de fixed tem seu head à esquerda.'''
     acc = 0
     for i in range(len(b[4])):
-        if (b[4][i][7] == "fixed") and (eval(b[4][i][6]) > eval(b[4][i][0])):
-            acc += 1
-            print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule50), sep="\t", file=dump)
+        if (b[4][i][6].isdigit()) and (b[4][i][0].isdigit()):
+            if (b[4][i][7] == "fixed") and (eval(b[4][i][6]) > eval(b[4][i][0])):
+                acc += 1
+                print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule50), sep="\t", file=dump)
     return acc
 
 def check51(b,dump):
     '''Todo token dependente de flat:name tem seu head à esquerda.'''
     acc = 0
     for i in range(len(b[4])):
-        if (b[4][i][7] == "flat:name") and (eval(b[4][i][6]) > eval(b[4][i][0])):
-            acc += 1
-            print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule51), sep="\t", file=dump)
+        if (b[4][i][6].isdigit()) and (b[4][i][0].isdigit()):
+            if (b[4][i][7] == "flat:name") and (eval(b[4][i][6]) > eval(b[4][i][0])):
+                acc += 1
+                print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule51), sep="\t", file=dump)
     return acc
 
 def check52(b,dump):
@@ -859,7 +884,7 @@ def check52(b,dump):
     npass = [0]*b[2]
     csubj = [0]*b[2]
     for i in range(len(b[4])):
-        if ("-" not in b[4][i][0]):
+        if ("-" not in b[4][i][0]) and (b[4][i][6].isdigit()):
             if (b[4][i][7] == "nsubj"):
                 nsubj[eval(b[4][i][6])-1] += 1
             elif (b[4][i][7] == "nsubj:pass"):
@@ -876,9 +901,10 @@ def check53(b,dump):
     '''Todo token dependente de flat:foreign tem seu head à esquerda.'''
     acc = 0
     for i in range(len(b[4])):
-        if (b[4][i][7] == "flat:foreign") and (eval(b[4][i][6]) > eval(b[4][i][0])):
-            acc += 1
-            print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule53), sep="\t", file=dump)
+        if (b[4][i][6].isdigit()) and (b[4][i][0].isdigit()):
+            if (b[4][i][7] == "flat:foreign") and (eval(b[4][i][6]) > eval(b[4][i][0])):
+                acc += 1
+                print("{}\t{}\t{}".format(b[0], b[4][i][0], msg_Prule53), sep="\t", file=dump)
     return acc
 
 def check54(b,dump):
@@ -1110,16 +1136,22 @@ def check67(b,dump):
         if (b[4][i][0] not in visited) and (b[4][i][1] in pairedA):
             A = b[4][i][1]
             idxA = i
-            currentA = eval(b[4][i][0])
+            if (b[4][i][0].isdigit()):
+                currentA = eval(b[4][i][0])
+            else:
+                currentA = 0
             B = pairedB[pairedA.index(A)]
             for j in range(i+1,len(b[4])):
                 if (b[4][j][1] == B):
                     idxB = j
-                    currentB = eval(b[4][j][0])
+                    if (b[4][j][0].isdigit()):
+                        currentB = eval(b[4][j][0])
+                    else:
+                        currentB = 0
                     break
             if (currentA != -1) and (currentB != -1):
                 for k in range(idxA+1,idxB):
-                    if ("-" not in b[4][k][0]):
+                    if ("-" not in b[4][k][0]) and (b[4][k][6].isdigit()):
                         if (eval(b[4][k][6]) < currentA) or (eval(b[4][k][6]) > currentB):
                             if (b[4][idxA][6] != b[4][k][0]) or (b[4][idxB][6] != b[4][k][0]):
                                 acc += 1
@@ -1138,9 +1170,11 @@ def check68(b,dump):
     for i in range(len(b[4])):
         if ("-" not in b[4][i][0]):
             if (b[4][i][7] == "obj"):
-                obj[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    obj[eval(b[4][i][6])-1] += 1
             elif (b[4][i][7] == "ccomp"):
-                ccomp[eval(b[4][i][6])-1] += 1
+                if (b[4][i][6].isdigit()):
+                    ccomp[eval(b[4][i][6])-1] += 1
     for i in range(b[2]):
         if (obj[i] > 0) and (ccomp[i] > 0):
             acc += 1

@@ -76,7 +76,7 @@ class conlluFile:
                         if (line[:9] == "# text = "):
                             TEXT = line[9:-1]
                     else:
-                        buf = line[:-1].split()
+                        buf = line[:-1].split("\t")
                         if (buf[3][0] == "["):
                             buf[3] = buf[3][1:-1]
                         buf.append("")  # holder for token change status (information place holder)

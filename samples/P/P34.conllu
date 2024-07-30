@@ -1,0 +1,164 @@
+# sent_id = RODAV_DOC000004_SEN0234
+# text = Eu não tinha, por exemplo, antes de fazer os desenhos animados, ideia de como era o universo socioeconômico do Cebolinho e da Mônica.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	não	não	ADV	_	_	3	advmod	_	_
+3	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
+5	por	por	ADP	_	_	6	case	_	_
+6	exemplo	exemplo	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	antes	antes	ADV	_	_	3	advmod	_	_
+9	de	de	ADP	_	_	10	mark	_	_
+10	fazer	fazer	VERB	_	VerbForm=Inf	8	acl	_	_
+11	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	desenhos	desenho	NOUN	_	Gender=Masc|Number=Plur	10	obj	_	_
+13	animados	animar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part	12	acl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	ideia	ideia	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	como	como	ADV	_	_	15	acl	_	_
+18	era	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	20	cop	_	_
+19	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	universo	universo	NOUN	_	Gender=Masc|Number=Sing	15	acl	_	_
+21	socioeconômico	socioeconômico	ADJ	_	Gender=Masc|Number=Sing	20	amod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	Cebolinho	Cebolinho	PROPN	_	_	20	nmod	_	_
+25	e	e	CCONJ	_	_	28	cc	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Mônica	Mônica	PROPN	_	_	24	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0294
+# text = Como?
+1	Como	como	ADV	_	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0390
+# text = As mulheres, como é que eu faço?
+1	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	mulheres	mulher	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	como	como	ADV	_	_	8	discourse	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	discourse	_	_
+6	que	que	SCONJ	_	_	8	discourse	_	_
+7	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	faço	fazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	8	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0522
+# text = Eu quero saber como é que é esse chinês, o que é esse projeto China, e se você vai levar em conta essa coisa que aconteceu na China, quer dizer, esse novo jovem chinês, esse que protestou na Praça da Paz, como é que vai ser esse personagem?
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	quero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	saber	saber	VERB	_	VerbForm=Inf	2	xcomp	_	_
+4	como	como	ADV	_	_	3	ccomp	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	discourse	_	_
+6	que	que	SCONJ	_	_	4	discourse	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	chinês	chinês	NOUN	_	Gender=Masc|Number=Sing	3	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	obj	_	_
+12	que	que	PRON	_	PronType=Rel	11	fixed	_	_
+13	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	projeto	projeto	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+16	China	China	PROPN	_	_	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	22	punct	_	_
+18	e	e	CCONJ	_	_	22	cc	_	_
+19	se	se	SCONJ	_	_	22	mark	_	_
+20	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	22	nsubj	_	_
+21	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	levar	levar	VERB	_	VerbForm=Inf	4	conj	_	_
+23	em	em	ADP	_	_	24	case	_	_
+24	conta	conta	NOUN	_	Gender=Fem|Number=Sing	22	obl	_	_
+25	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	26	det	_	_
+26	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+27	que	que	PRON	_	PronType=Rel	28	nsubj	_	_
+28	aconteceu	acontecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	acl:relcl	_	_
+29-30	na	_	_	_	_	_	_	_	_
+29	em	em	ADP	_	_	31	case	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	China	China	PROPN	_	_	28	obl	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	quer	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:discourse	_	_
+34	dizer	dizer	VERB	_	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	38	punct	_	_
+36	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	38	det	_	_
+37	novo	novo	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	_
+38	jovem	jovem	NOUN	_	Number=Sing	34	obj	_	_
+39	chinês	chinês	ADJ	_	Gender=Masc|Number=Sing	38	amod	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	41	punct	_	_
+41	esse	esse	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	38	conj	_	_
+42	que	que	PRON	_	PronType=Rel	43	nsubj	_	_
+43	protestou	protestar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	41	acl:relcl	_	_
+44-45	na	_	_	_	_	_	_	_	_
+44	em	em	ADP	_	_	46	case	_	_
+45	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	Praça	Praça	PROPN	_	_	43	obl	_	_
+47-48	da	_	_	_	_	_	_	_	_
+47	de	de	ADP	_	_	49	case	_	_
+48	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Paz	Paz	PROPN	_	_	46	flat:name	_	SpaceAfter=No
+50	,	,	PUNCT	_	_	51	punct	_	_
+51	como	como	ADV	_	_	3	ccomp	_	_
+52	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	discourse	_	_
+53	que	que	SCONJ	_	_	51	discourse	_	_
+54	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	51	aux	_	_
+55	ser	ser	AUX	_	VerbForm=Inf	57	cop	_	_
+56	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	57	det	_	_
+57	personagem	personagem	NOUN	_	Number=Sing	51	parataxis	_	SpaceAfter=No
+58	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0543
+# text = Então nós analisamos onde é que estão fazendo os produtos.
+1	Então	então	ADV	_	_	3	advmod	_	_
+2	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	analisamos	analisar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	onde	onde	ADV	_	_	3	ccomp	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	discourse	_	_
+6	que	que	SCONJ	_	_	8	discourse	_	_
+7	estão	estar	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fazendo	fazer	VERB	_	VerbForm=Ger	3	ccomp	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	produtos	produto	NOUN	_	Gender=Masc|Number=Plur	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0569
+# text = E a ex-noiva do Pelé, a Xuxa, agora que você está no primeiro curso, como é que está a revistinha da Xuxa?
+1	E	e	CCONJ	_	_	18	cc	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	ex-noiva	ex-noivo	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Pelé	Pelé	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	9	punct	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Xuxa	Xuxa	PROPN	_	_	3	appos	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	agora	agora	ADV	_	_	18	advmod	_	_
+12	que	que	SCONJ	_	_	11	fixed	_	_
+13	você	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	18	nsubj	_	_
+14	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15-16	no	_	_	_	_	_	_	_	_
+15	em	em	ADP	_	_	18	case	_	_
+16	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	primeiro	primeiro	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	18	amod	_	_
+18	curso	curso	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	_
+20	como	como	ADV	_	_	18	acl:relcl	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	discourse	_	_
+22	que	que	SCONJ	_	_	25	discourse	_	_
+23	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	revistinha	revistinha	NOUN	_	Gender=Fem|Number=Sing	18	parataxis	_	_
+26-27	da	_	_	_	_	_	_	_	_
+26	de	de	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Xuxa	Xuxa	PROPN	_	_	25	nmod	_	SpaceAfter=No
+29	?	?	PUNCT	_	_	18	punct	_	_
+

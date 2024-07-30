@@ -32,7 +32,7 @@ from reporter import conlluReports
 #################################################
 def parseOptions(arguments):
     # default options
-    output_file, input_file = "report.conllu", ""
+    output_file, input_file = "report.conllu", "corpus.conllu"
     i = 1
     while i < len(arguments):
         if (arguments[i][0] == "-"):

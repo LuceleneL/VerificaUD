@@ -1,0 +1,121 @@
+# sent_id = RODAV_DOC000004_SEN0241
+# text = Eu acho que num país como o nosso, onde o ideal é estar na classe média, os nossos personagens principais deveriam estar na classe média.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	25	mark	_	_
+4-5	num	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	país	país	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	_
+7	como	como	ADP	_	_	9	case	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	nosso	nosso	PRON	_	Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	18	punct	_	_
+11	onde	onde	ADV	_	_	18	advmod	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ideal	ideal	NOUN	_	Number=Sing	18	nsubj	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+15	estar	estar	AUX	_	VerbForm=Inf	18	cop	_	_
+16-17	na	_	_	_	_	_	_	_	_
+16	em	em	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	classe	classe	NOUN	_	Gender=Fem|Number=Sing	6	acl:relcl	_	_
+19	média	médio	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	18	punct	_	_
+21	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
+22	nossos	nosso	DET	_	Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	det	_	_
+23	personagens	personagem	NOUN	_	Number=Plur	25	nsubj	_	_
+24	principais	principal	ADJ	_	Number=Plur	23	amod	_	_
+25	deveriam	dever	VERB	_	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin	2	ccomp	_	_
+26	estar	estar	AUX	_	VerbForm=Inf	29	cop	_	_
+27-28	na	_	_	_	_	_	_	_	_
+27	em	em	ADP	_	_	29	case	_	_
+28	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	classe	classe	NOUN	_	Gender=Fem|Number=Sing	25	xcomp	_	_
+30	média	médio	ADJ	_	Gender=Fem|Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0267
+# text = Não é que o personagem esteja alienado, mas efetivamente a criança de 6, 7 anos, ela sente esse tipo de problema, ouve os pais falarem, mas a vivência, a vida dela, dessa criança, é outra.
+1	Não	não	ADV	_	_	7	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	que	que	SCONJ	_	_	7	mark	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	personagem	personagem	NOUN	_	Number=Sing	7	nsubj	_	_
+6	esteja	estar	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	alienado	alienado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	mas	mas	CCONJ	_	_	12	cc	_	_
+10	efetivamente	efetivamente	ADV	_	_	12	advmod	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	criança	criança	NOUN	_	Gender=Fem|Number=Sing	7	conj	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	6	6	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	17	punct	_	_
+16	7	7	NUM	_	NumType=Card	17	nummod	_	_
+17	anos	ano	NOUN	_	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	20	punct	_	_
+19	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	sente	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+21	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+22	tipo	tipo	NOUN	_	Gender=Masc|Number=Sing	20	obj	_	_
+23	de	de	ADP	_	_	24	case	_	_
+24	problema	problema	NOUN	_	Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	26	punct	_	_
+26	ouve	ouvir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	_	_
+28	pais	pai	NOUN	_	Gender=Masc|Number=Plur	26	obj	_	_
+29	falarem	falar	VERB	_	Number=Plur|Person=3|VerbForm=Inf	26	xcomp	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	45	punct	_	_
+31	mas	mas	CCONJ	_	_	45	cc	_	_
+32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	vivência	vivência	NOUN	_	Gender=Fem|Number=Sing	45	nsubj	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	36	punct	_	_
+35	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	vida	vida	NOUN	_	Gender=Fem|Number=Sing	33	conj	_	_
+37-38	dela	_	_	_	_	_	_	_	SpaceAfter=No
+37	de	de	ADP	_	_	38	case	_	_
+38	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	nmod	_	_
+39	,	,	PUNCT	_	_	42	punct	_	_
+40-41	dessa	_	_	_	_	_	_	_	_
+40	de	de	ADP	_	_	42	case	_	_
+41	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	42	det	_	_
+42	criança	criança	NOUN	_	Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	_	_
+45	outra	outro	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	7	conj	_	SpaceAfter=No
+46	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0730
+# text = Vamos dizer, fatal é nós sermos uma editora.
+1	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	dizer	dizer	VERB	_	VerbForm=Inf	9	parataxis:discourse	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	4	punct	_	_
+4	fatal	fatal	ADJ	_	Number=Sing	9	amod	_	_
+5	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+7	sermos	ser	AUX	_	Number=Plur|Person=1|VerbForm=Inf	9	cop	_	_
+8	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	editora	editor	NOUN	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0810
+# text = Eu gosto de ser Maurício de Souza, mas eu não sei ser é outra coisa.
+1	Eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gosto	gostar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	5	mark	_	_
+4	ser	ser	AUX	_	VerbForm=Inf	5	cop	_	_
+5	Maurício	Maurício	PROPN	_	_	2	xcomp	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	Souza	Souza	PROPN	_	_	5	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	12	punct	_	_
+9	mas	mas	CCONJ	_	_	12	cc	_	_
+10	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	não	não	ADV	_	_	12	advmod	_	_
+12	sei	saber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	ser	ser	AUX	_	VerbForm=Inf	16	cop	_	_
+14	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	outra	outro	DET	_	Gender=Fem|Number=Sing|PronType=Ind	16	det	_	_
+16	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	12	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	_
+

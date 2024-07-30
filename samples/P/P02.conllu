@@ -1,0 +1,40 @@
+# sent_id = RODAV_DOC000004_SEN0044
+# text = Então nós estamos realmente no campo editorial muito aquém do que poderíamos estar com o próprio material que já produzimos.
+1	Então	então	ADV	_	_	7	advmod	_	_
+2	nós	nós	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+3	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	realmente	realmente	ADV	_	_	7	advmod	_	_
+5-6	no	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	campo	campo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+8	editorial	editorial	ADJ	_	Number=Sing	7	amod	_	_
+9	muito	muito	ADV	_	_	10	advmod	_	_
+10	aquém	aquém	ADV	_	_	7	amod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	14	mark	_	_
+12	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	fixed	_	_
+13	que	que	PRON	_	PronType=Rel	11	fixed	_	_
+14	poderíamos	poder	VERB	_	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	10	advcl	_	_
+15	estar	estar	AUX	_	VerbForm=Inf	19	cop	_	_
+16	com	com	ADP	_	_	19	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	próprio	próprio	DET	_	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	material	material	NOUN	_	Gender=Masc|Number=Sing	14	xcomp	_	_
+20	que	que	PRON	_	PronType=Rel	22	obj	_	_
+21	já	já	ADV	_	_	22	advmod	_	_
+22	produzimos	produzir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0754
+# text = Ninguém gosta de viver armado contra o próximo.
+1	Ninguém	ninguém	PRON	_	Number=Sing|PronType=Ind	2	nsubj	_	_
+2	gosta	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	de	de	ADP	_	_	4	mark	_	_
+4	viver	viver	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	armado	armado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	4	advcl	_	_
+6	contra	contra	ADP	_	_	7	case	_	_
+7	o	o	PRON	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	obl	_	_
+8	próximo	próximo	NOUN	_	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	2	punct	_	_
+

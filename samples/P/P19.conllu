@@ -1,0 +1,19 @@
+# sent_id = RODAV_DOC000004_SEN0251
+# text = O desenho animado vai fazer, finalmente, seus personagens irem à escola?
+1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	desenho	desenho	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	animado	animado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	_
+4	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fazer	fazer	VERB	_	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	7	punct	_	_
+7	finalmente	finalmente	ADV	_	_	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	seus	seu	DET	_	Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	det	_	_
+10	personagens	personagem	NOUN	_	Number=Plur	11	nsubj	_	_
+11	irem	ir	VERB	_	Number=Plur|Person=3|VerbForm=Inf	5	xcomp	_	_
+12-13	à	_	_	_	_	_	_	_	_
+12	a	a	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	escola	escola	NOUN	_	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+15	?	?	PUNCT	_	_	5	punct	_	_
+

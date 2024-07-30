@@ -1,0 +1,90 @@
+# sent_id = RODAV_DOC000004_SEN0104
+# text = Sim.
+1	Sim	sim	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0209
+# text = Seis.
+1	Seis	seis	NUM	_	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0294
+# text = Como?
+1	Como	como	ADV	_	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0300
+# text = Não.
+1	Não	não	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0304
+# text = Hã?
+1	Hã	hã	INTJ	_	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0336
+# text = Fábio.
+1	Fábio	Fábio	PROPN	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0353
+# text = Vai.
+1	Vai	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0355
+# text = Agora.
+1	Agora	agora	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0361
+# text = Tina.
+1	Tina	Tina	PROPN	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0417
+# text = Maurício.
+1	Maurício	Maurício	PROPN	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0458
+# text = Sim.
+1	Sim	sim	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0490
+# text = Não.
+1	Não	não	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0513
+# text = Tem.
+1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0555
+# text = Inclui.
+1	Inclui	incluir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0581
+# text = Não.
+1	Não	não	ADV	_	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0692
+# text = Desenho.
+1	Desenho	desenho	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0809
+# text = É.
+1	É	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = RODAV_DOC000004_SEN0813
+# text = Certo?
+1	Certo	certo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	_	_	1	punct	_	_
+
